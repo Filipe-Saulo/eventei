@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\Eventei\\eventei\\eventei.csproj": {}
+    "C:\\Users\\Michel\\Documents\\GitHub\\eventei\\eventei.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\Eventei\\eventei\\eventei.csproj": {
+    "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\BancoDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Eventei\\eventei\\eventei.csproj",
-        "projectName": "eventei",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Eventei\\eventei\\eventei.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\eventei\\eventei\\obj\\",
+        "projectUniqueName": "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\BancoDados.csproj",
+        "projectName": "BancoDados",
+        "projectPath": "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\BancoDados.csproj",
+        "packagesPath": "C:\\Users\\Michel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Michel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +29,150 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\CamadaNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\CamadaNegocios.csproj",
+        "projectName": "CamadaNegocios",
+        "projectPath": "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\CamadaNegocios.csproj",
+        "packagesPath": "C:\\Users\\Michel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\BancoDados.csproj": {
+                "projectPath": "C:\\Users\\Michel\\Documents\\GitHub\\BancoDados\\BancoDados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michel\\Documents\\GitHub\\eventei\\eventei.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michel\\Documents\\GitHub\\eventei\\eventei.csproj",
+        "projectName": "eventei",
+        "projectPath": "C:\\Users\\Michel\\Documents\\GitHub\\eventei\\eventei.csproj",
+        "packagesPath": "C:\\Users\\Michel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michel\\Documents\\GitHub\\eventei\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\CamadaNegocios.csproj": {
+                "projectPath": "C:\\Users\\Michel\\Documents\\GitHub\\CamadaNegocios\\CamadaNegocios.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

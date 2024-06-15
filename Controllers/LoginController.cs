@@ -1,5 +1,7 @@
 ﻿using eventei.Models;
 using Microsoft.AspNetCore.Mvc;
+using CamadaNegocios;
+using BancoDados;
 
 namespace eventei.Controllers
 {
@@ -20,7 +22,10 @@ namespace eventei.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Login>> GetLogin()
         {
-            return Ok(_logins);
+            D_Usuarios[] d_Usuarios = new D_Usuarios[0];
+            ValidaLogin objUsuario = new ValidaLogin();
+            d_Usuarios = objUsuario.DevolverUsuario();
+            return Ok(d_Usuarios);
         }
         //essa informacao acima é retornado para a porta h_ttps://localhost:7204/api/Login no qual vai ser tratado no front end
     }
