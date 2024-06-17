@@ -7,8 +7,8 @@ namespace eventei.Controllers
 {
 
     //h_ttps://localhost:7204/api/Login
-    [Route("api/[Controller]")]
-    [ApiController]
+    //[Route("api/[Controller]")]
+    //[ApiController]
     public class LoginController : ControllerBase
     {
         private Login[] _logins = new Login[]
@@ -20,6 +20,7 @@ namespace eventei.Controllers
         //httpget, httpupdate, httpdelete... por ai vai
 
         [HttpGet]
+        [Route ("api/Login")]
         public ActionResult<IEnumerable<Login>> GetLogin()
         {
             D_Usuarios[] d_Usuarios = new D_Usuarios[0];
