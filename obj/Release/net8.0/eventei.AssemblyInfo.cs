@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eventei")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11d8f727752611ee8b9b4e8e1ee43639e8f11c22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4ed00df8bd6496052c0adadea2a7c9d12098bef")]
 [assembly: System.Reflection.AssemblyProductAttribute("eventei")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eventei")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
